@@ -1,10 +1,4 @@
 import edu.duke.*;
-/**
- * Write a description of class CaesarCipherTwo here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class CaesarCipherTwo
 {   
     private String alphabet;
