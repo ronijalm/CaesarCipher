@@ -34,19 +34,5 @@ public class CaesarCipher
         CaesarCipher cc=new CaesarCipher(26-mainKey);
         return cc.encrypt(input);
     }
-    
-    
-    
-    public void testCaesar(){
-        //System.out.println("Should be CFOPQ IBDFLK XQQXZH BXPQ CIXKH! / is - " +encrypt("FIRST LEGION ATTACK EAST FLANK!",23));
-        //System.out.println("Should be Cfopq Ibdflk / is - " +encrypt("First Legion",23));
-        //System.out.println("Should be Wzijk Cvxzfe / is - " +encrypt("First Legion", 17));
-        //System.out.println(encrypt("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!",15));
-        int key=23;
-        FileResource fr=new FileResource();
-        String message=fr.asString();
-        String encrypted=encrypt(message);
-        System.out.println("key is "+key+"\n"+encrypted);
-        
-    }
+
 }
