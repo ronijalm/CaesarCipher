@@ -1,11 +1,5 @@
 import edu.duke.*;
 
-/**
- * Write a description of class TestCaesarCipherTwo here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class TestCaesarCipherTwo
 {
     public String halfOfString(String message, int start){
